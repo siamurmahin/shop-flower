@@ -1,0 +1,70 @@
+/* Global css */
+*{
+    font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+margin: 0 auto;
+padding: 0px;
+
+}
+
+.width-50{
+    width: 50%;
+}
+
+/* Hero Section Css */
+
+.hero-section{
+    background-color:rgba(229, 84, 115, 0.1);
+    
+    
+}
+.hero-section-content{
+margin: 0px 200px;
+    display: flex;
+    
+    
+
+}
+
+.hero-content{
+    padding: 150px 0px;
+}
+
+.hero-content h2{
+    font-size: 80px;
+    line-height: 100px;
+    margin-bottom: 30px;
+}
+.hero-content p{
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.6);
+    margin-bottom: 30px;
+}
+.hero-content button{
+    background-color: #E55473;
+    border: 0px;
+    padding: 15px 35px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+}
+.hero-image{
+    overflow: hidden;
+    padding: 0px;
+    display: flex;
+    vertical-align: bottom;
+}
+
+.hero-image {
+    display: flex;
+    justify-content: bottom;
+    align-items: end;
+}
+.hero-image img{
+    
+    width: 635px;
+    height: 800px;
+
+    
+}
+
