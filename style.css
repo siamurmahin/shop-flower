@@ -6,9 +6,31 @@ margin: 0 auto;
 padding: 0px;
 
 }
-
+.container{
+    width: 1250px;
+}
 .width-50{
     width: 50%;
+}
+
+.light-blue{
+    background-color: rgba(5, 151, 160, 0.15);
+}
+.light-pink{
+    background-color:rgba(229, 84, 115, 0.05);
+}
+.light-green{
+    background-color: rgba(71, 125, 17, 0.15);
+}
+
+
+button{
+    background-color: #E55473;
+    border: 0px;
+    padding: 15px 35px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
 }
 
 /* Hero Section Css */
@@ -16,13 +38,10 @@ padding: 0px;
 .hero-section{
     background-color:rgba(229, 84, 115, 0.1);
     
-    
+
 }
-.hero-section-content{
-margin: 0px 200px;
-    display: flex;
-    
-    
+.d-flex{
+        display: flex;
 
 }
 
@@ -40,14 +59,7 @@ margin: 0px 200px;
     color: rgba(39, 39, 39, 0.6);
     margin-bottom: 30px;
 }
-.hero-content button{
-    background-color: #E55473;
-    border: 0px;
-    padding: 15px 35px;
-    border-radius: 10px;
-    font-size: 20px;
-    color: white;
-}
+
 .hero-image{
     overflow: hidden;
     padding: 0px;
@@ -68,3 +80,213 @@ margin: 0px 200px;
     
 }
 
+/* Hero Section Closed */
+
+/* Featured section start */
+
+.featured-section{
+    width: 1250px;
+}
+.featured-head{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.featured-head h2{
+    font-size: 40px;
+}
+.featured-head p{
+    font-size: 18px;
+    line-height: 25px;
+}
+.featured-products{
+    display: flex;
+}
+
+.featured-product{
+    width: 32%;
+    text-align: center;
+    padding-bottom:100px ;
+
+
+}
+.featured-product-image{
+    /* background-color: rgba(167, 33, 98, 0.15); */
+    border-radius: 300px 300px 0px 0px;
+    /* height: 550px; */
+    display: flex;
+    align-items:center;
+    justify-content:end;
+    flex-direction: column;
+    vertical-align: bottom;
+    vertical-align: bottom;
+    padding-top:100px ;
+    margin-bottom: 25px;
+
+}
+.featured-product-image img{
+    width:300px;
+    height: 400px;
+    padding: 0;
+    margin: 0;
+}
+.featured-product-content h2{
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+/* featured section closed */
+
+/* support section open */
+
+.support-section{
+    background-color: rgba(39, 39, 39, 0.05);
+    width: 1250px;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.support-item{
+    padding: 60px 0px;
+    text-align: center;
+    width: 25%;
+
+    
+}
+.support-item img{
+    margin-bottom: 20px;
+}
+.support-item h4{
+    color: rgba(39, 39, 39, 0.8);
+    font-size: 16px;
+}
+
+/* support section closed */
+
+/* Offer section start */
+
+.offer-section{
+padding: 100px 0px;
+}
+.offer-content{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.offer-content h3{
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.offer-content h3 > span{
+    color: #E55473;
+}
+.offer-content p{
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.offer-image{}
+
+/* Offer section closed */
+
+/* Gallery section start */
+
+.gallery-section{
+padding: 100px;
+
+}
+.gallery-head{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.gallery-head h3{
+    font-size: 40px;
+    margin-bottom:20px;
+}
+.gallery-items{
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery-item {
+    width: 23%;
+    padding: 10px;
+}
+.gallery-item img{
+    width: 100%;
+}
+
+/* Gallery section closed */
+
+/* Subscription section start */
+
+.subs-section{
+    padding: 100px 0px;
+    background-image: url("Flower_Asset/Rectangle\ 9.png");
+    margin-bottom: 100px;
+}
+.subs-head{
+    text-align: center;
+}
+.subs-head h3{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.subs-head p{
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.sub-form{
+    text-align: center;
+    
+}
+.sub-form input[type=text]{
+    border: 0px;
+    border-radius: 10px;
+    padding: 22px;
+    width: 300px;
+    margin-right: 20px;
+}
+
+.sub-form input[type=button]{
+    background-color: #E55473;
+    border: 0px;
+    padding: 15px 35px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+/* Subscription section closed */
+
+/* Footer start */
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 100px 0;
+}
+footer h1{
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+footer h1 > span{
+    color: #E55473;
+    
+}
+
+footer p{
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 10px;
+}
+
+footer h6{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.4);
+    font-weight: 300;
+}
